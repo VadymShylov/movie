@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider theme={theme}>
-    <BrowserRouter basename="/goit-react-hw-05-movies/">
+    <BrowserRouter basename="/movie/">
       <App />
       <ToastContainer autoClose={3000} position="top-center" />
     </BrowserRouter>
